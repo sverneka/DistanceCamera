@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >	
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Height in mts to measure Distance: " />
+
+    <EditText android:id="@+id/height" 
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginBottom="10dip"
+    		 android:inputType="numberDecimal" >
+
+     <requestFocus />
+      </EditText>
+     <requestFocus />
+
+     <Button
+         android:id="@+id/buttonheight"
+         android:layout_width="274dp"
+         android:layout_height="wrap_content"
+         android:text="Measure Distance" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="272dp"
+         android:layout_height="wrap_content"
+         android:text="Enter Distance in mts to measure Height:" />
+
+     <EditText
+         android:id="@+id/distance"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:inputType="numberDecimal" />
+
+     <Button
+         android:id="@+id/buttondistance"
+         android:layout_width="274dp"
+         android:layout_height="wrap_content"
+         android:text="Measure Height" />
+
+</LinearLayout>
